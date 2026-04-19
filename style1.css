@@ -3,8 +3,8 @@ margin: 0;
 padding: 0 auto;
 }
 .W-1000{
-width: 1100px;
-height: 1200px;
+width: 1000px;
+height: 1170px;
 }
 header h1{
 display: flex;
@@ -24,8 +24,7 @@ display: grid;
 grid-template-columns: repeat(4, 250px);
 gap: 40px;
 justify-content: center;
-width: 40%; 
-max-width: 100px;
+width: 100%; 
 }
 .ml-30{
 width:250px;
@@ -38,7 +37,7 @@ justify-content: center;
 margin-bottom: 50px;
 gap: 20px;
 border: rgb(0, 0, 0) 2px solid ;
-transition: transform 0.5s;
+transition: transform 1s;
 }
 .ml-30 img{
 width: 233px;
@@ -51,7 +50,7 @@ transform: scale(1.1) rotateX(-1deg) rotateY(1deg) translate(-1px, -1px);
 .ml-30 button:active{
 border-radius: 20px;
 .ml-30 p, .ml-35 p {
-    width: 233px; 
+    width: 233зчpx; 
     max-width: 95%;
     height: auto; 
     font-weight: 400;
