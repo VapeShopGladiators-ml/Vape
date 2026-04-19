@@ -1,7 +1,6 @@
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+*{
+margin: 0 ;
+padding: 0 auto;
 }
 body {
 overflow-x: hidden;
@@ -50,9 +49,10 @@ max-width: 95%;
 height: auto;
 object-fit: cover;
 }
-.ml-30 p {
-width: 100%;
-font-size: 16px;
+.ml-30 p{
+width: 614px;
+font-weight: 400;
+font-size: 22px;
 }
 .ml-30:hover{
 transform: scale(1.1) rotateX(-1deg) rotateY(1deg) translate(-1px, -1px);
@@ -78,9 +78,10 @@ max-width: 95%;
 height: auto;
 object-fit: cover;    
 }
-.ml-35 p {
-width: 100%;
-font-size: 16px;
+.ml-35 p{
+width: 614px;
+font-weight: 400;
+font-size: 22px;
 }
 .ml-35:hover{
 transform: scale(1.1) rotateX(-1deg) rotateY(1deg) translate(-1px, -1px);
