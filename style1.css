@@ -20,9 +20,8 @@ justify-content: center;
 flex-direction: column;
 }
 .products {
-display: grid;
-grid-template-columns: repeat(4, 250px);
-gap: 40px;
+display: flex;
+flex-wrap: wrap;
 justify-content: center;
 width: 100%; 
 }
