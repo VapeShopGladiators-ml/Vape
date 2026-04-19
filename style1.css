@@ -50,8 +50,9 @@ transform: scale(1.1) rotateX(-1deg) rotateY(1deg) translate(-1px, -1px);
 .ml-30 button:active{
 border-radius: 20px;
 .ml-30 p, .ml-35 p {
-    width: 100%; 
-    max-width: 230px; 
+    width: 233зчpx; 
+    max-width: 95%;
+    height: auto; 
     font-weight: 400;
     font-size: 22px;
     margin: 0 auto; 
