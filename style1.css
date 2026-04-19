@@ -3,8 +3,8 @@ margin: 0;
 padding: 0;
 }
 .W-1000{
-width: 1120px;
-height: 2000px;
+width: auto;
+height: auto;
 }
 header h1{
 display: flex;
