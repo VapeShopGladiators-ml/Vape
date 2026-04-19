@@ -1,16 +1,6 @@
 *{
-margin: 0 ;
-padding: 0 auto;
-}
-body {
-overflow-x: hidden;
-width: 100%;
-height: auto;
-}
-.v1 {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-gap: 10px;
+margin: 0;
+padding: 0;
 }
 header h1{
 display: flex;
@@ -25,11 +15,12 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 }
-.products {
+.products{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-gap: 20px;
-padding: 10px;
+grid-template-columns: repeat(4, 250px);
+gap: 40px;
+justify-content: center;
+align-items: center;
 }
 .ml-30{
 width:250px;
@@ -45,8 +36,8 @@ border: rgb(0, 0, 0) 2px solid ;
 transition: transform 1s;
 }
 .ml-30 img{
-max-width: 95%;
-height: auto;
+width: 233px;
+height: 233px;
 object-fit: cover;
 }
 .ml-30 p{
@@ -74,8 +65,8 @@ border: rgb(0, 0, 0) 2px solid ;
 transition: transform 1s;
 }
 .ml-35 img{
-max-width: 95%;
-height: auto;
+width: 235px;
+height: 235px;
 object-fit: cover;    
 }
 .ml-35 p{
