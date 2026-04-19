@@ -21,7 +21,7 @@ flex-direction: column;
 }
 .products {
 display: grid;
-grid-template-columns: repeat(2, 350px);
+grid-template-columns: repeat(6, 250px);
 gap: 40px;
 justify-content: center;
 width: 100%; 
