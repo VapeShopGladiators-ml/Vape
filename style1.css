@@ -4,6 +4,8 @@ padding: 0 auto;
 }
 body {
 overflow-x: hidden;
+width: 100%;
+height: auto;
 }
 .v1 {
 display: grid;
