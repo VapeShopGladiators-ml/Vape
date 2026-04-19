@@ -2,10 +2,6 @@
 margin: 0;
 padding: 0;
 }
-.W-1000{
-width: auto;
-height: auto;
-}
 header h1{
 display: flex;
 justify-content: center;
@@ -21,7 +17,7 @@ flex-direction: column;
 }
 .products{
 display: grid;
-grid-template-columns: repeat(2, 400px);
+grid-template-columns: repeat(4, 250px);
 gap: 40px;
 justify-content: center;
 align-items: center;
