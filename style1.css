@@ -21,7 +21,8 @@ flex-direction: column;
 }
 .products {
 display: flex;
-flex-wrap: wrap;
+grid-template-columns: repeat(4, 250px);
+gap: 40px;
 justify-content: center;
 width: 100%; 
 }
@@ -48,14 +49,6 @@ transform: scale(1.1) rotateX(-1deg) rotateY(1deg) translate(-1px, -1px);
 }
 .ml-30 button:active{
 border-radius: 20px;
-.ml-30 p, .ml-35 p {
-    width: 233зчpx; 
-    max-width: 95%;
-    height: auto; 
-    font-weight: 400;
-    font-size: 22px;
-    margin: 0 auto; 
-}
 }
 .ml-35{
 width: 250px;
@@ -88,4 +81,12 @@ border-radius: 20px;
 .ml-35{
   border: 2px solid black;
   border-radius: 15px;
+}
+.ml-30 p, .ml-35 p {
+    width: 233px; 
+    max-width: 95%;
+    height: auto; 
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0 auto; 
 }
