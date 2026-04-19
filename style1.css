@@ -21,8 +21,8 @@ flex-direction: column;
 }
 .products {
 display: grid;
-grid-template-columns: repeat(2, 250px);
-gap: 40px;
+grid-template-columns: repeat(1, 250px);
+gap: 20px;
 justify-content: center;
 width: 100%;
 max-width: 600px 
@@ -70,7 +70,7 @@ justify-content: center;
 margin-bottom: 50px;
 gap: 20px;
 border: rgb(0, 0, 0) 2px solid ;
-transition: transform 1s;
+transition: transform 0.5s;
 }
 .ml-35 img{
 width: 235px;
