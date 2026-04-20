@@ -1,6 +1,6 @@
 *{
-margin: 0;
-padding: 0;
+margin: 0 auto;
+padding: 0 auto;
 }
 header h1{
 display: flex;
@@ -41,7 +41,7 @@ height: 233px;
 object-fit: cover;
 }
 .ml-30 p{
-width: 614px;
+width: 220px;
 font-weight: 400;
 font-size: 22px;
 }
