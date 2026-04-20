@@ -2,12 +2,13 @@
 margin: 0 auto;
 padding: 0 auto;
 }
-header h1{
+header {
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 text-align: center;
+font-size: 40px;
 }
 .v1{
 display: flex;
@@ -70,7 +71,7 @@ height: 235px;
 object-fit: cover;    
 }
 .ml-35 p{
-width: 614px;
+width: 220px;
 font-weight: 400;
 font-size: 22px;
 }
